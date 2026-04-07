@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>modulos</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="todo">
+    <div class="contenedor-calculadoras">
+      <h3>Saludos en varios idiomas</h3>
+
+      <input type="text" id="input-nombre" placeholder="Tu nombre" />
+
+      <select id="select-idioma">
+        <option value="es">Español</option>
+        <option value="en">Inglés</option>
+        <option value="fr">Francés</option>
+      </select>
+
+      <button id="btn-saludar">Saludar</button>
+
+      <p id="resultado-saludo"></p>
+    </div>
+    <hr />
+    <div class="contenedor-calculadoras">
+      <h3>contraseñas</h3>
+      <input
+        type="password"
+        id="password"
+        placeholder="Escribe tu contraseña"
+      />
+      <button id="btn-con">pulsar</button>
+      <p id="mensaje-seguridad"></p>
+    </div>
+    <hr>
+    <div class="contenedor-calculadoras">
+        <h3>Convertir temperatura</h3>
+        <input type="number" id="input-celsius" placeholder="Grados Celsius">
+        <button id="btn-calcular">Convertir a Fahrenheit</button>
+        <p id="resultado"></p>
+    </div>
+    <hr>
+    <div class="contenedor-calculadoras">
+    <div class="card">
+        <h3>Área del Cuadrado</h3>
+        <input type="number" id="lado-cuadrado" placeholder="Lado">
+        <button id="btn-cuadrado">Calcular</button>
+        <p id="res-cuadrado"></p>
+    </div>
+
+   
+
+    <div class="card">
+        <h3>Área del Círculo</h3>
+        <input type="number" id="radio-circulo" placeholder="Radio">
+        <button id="btn-circulo">Calcular</button>
+        <p id="res-circulo"></p>
+    </div>
+    <hr>
+    <div class="video-background">
+    <iframe 
+        src="https://www.youtube.com/embed/iSfz3ZFgu94?autoplay=1&mute=1&loop=1&playlist=iSfz3ZFgu94&controls=0&showinfo=0&rel=0" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+
+
+<div class="contenido">
+    <div class="card">
+        <h3>Contador (0 - 10)</h3>
+        
+        <div style="font-size: 3rem; margin: 10px;" id="numero">0</div>
+        <button id="btn-menos">-</button>
+        <button id="btn-mas">+</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+   
+
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
+
+
